@@ -1,16 +1,38 @@
-# gemini_api_deneme
+# Müzik Öneri Uygulaması
 
-A new Flutter project.
+Bu uygulama, kullanıcıların müzik zevklerine göre kişiselleştirilmiş şarkı önerileri sunan bir Flutter uygulamasıdır. Google Gemini Pro modeli kullanılarak geliştirilmiştir.
 
-## Getting Started
+## Özellikler
 
-This project is a starting point for a Flutter application.
+* Kullanıcı dostu arayüz
+* Farklı müzik türlerinde öneriler
+* Detaylı şarkı açıklamaları (Gemini Pro tarafından üretilir)
+* Seçilen müziklere göre ortak noktaları bulunan yeni müzikler önerir
 
-A few resources to get you started if this is your first Flutter project:
+## Kurulum
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Projeyi klonlayın: `git clone https://github.com/your-username/music-suggestion-app.git`
+2. Gerekli bağımlılıkları yükleyin: `flutter pub get`
+3. `google_generative_ai` paketini kullanabilmek için bir API anahtarı alın ve `main.dart` dosyasındaki `apiKey` değerini güncelleyin.
+4. Uygulamayı çalıştırın: `flutter run`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Kullanım
+
+1. Uygulamayı açın ve müzik zevkinize uygun türleri seçin.
+2. "Sonuçları Göster" butonuna tıklayın.
+3. Önerilen şarkıları inceleyin ve beğendiklerinizi dinleyin.
+
+## Teknolojiler
+
+* **Programlama Dili:** Dart
+* **Framework:** Flutter
+* **Yapay Zeka Modeli:** Google Generative AI (Gemini Pro)
+* **Paketler:** google_generative_ai
+
+
+## İletişim
+
+Ahmet Kaan Çelenk 
+
+
+
