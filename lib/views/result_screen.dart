@@ -19,7 +19,7 @@ class _ResultScreenState extends State<ResultScreen> {
   bool isLoading = true;
   final model = GenerativeModel(
     model: "gemini-pro",
-    apiKey: "AIzaSyDMghJD1XPOuhMerghmJeY0nbe1rEtJEGo",
+    apiKey: "     gemini api giriniz     ",
   );
 
   _getMovieSuggestion() async {
